@@ -1,0 +1,12 @@
+[Unit]
+Description=idena
+
+[Service]
+Type=simple
+ExecStart=/home/centos/idena/idena-go --port=40405 --rpcport=9009 --datadir=/home/centos/idena/datadir
+RemainAfterExit=no
+Restart=on-failure
+RestartSec=5s
+
+[Install]
+WantedBy=multi-user.target
