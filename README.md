@@ -25,7 +25,7 @@ And copy&paste the content
 ### 1.2 - Uploal creation
 
 ```shell
-$ scp idena.service username@to_host:/etc/systemd/system/idena.service
+$ scp idena.service username@to_host:/etc/systemd/system/
 ```
 
 ### 1.3 - Start service
